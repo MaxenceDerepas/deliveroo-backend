@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
     res.json(data);
 });
 
-app.listen(Process.env.PORT || 3100, () => {
+app.listen(Process.env.PORT, () => {
     console.log("server started");
 });
